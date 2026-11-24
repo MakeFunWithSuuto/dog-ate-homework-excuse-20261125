@@ -3,7 +3,7 @@ import { dirname } from "node:path";
 
 const ENTRY_PATH = "/output/entry.txt";
 const EXCUSE =
-  "You said your homework was important, so I hid it somewhere safe from the vacuum. Don't worry, we'll get it back on our morning walk.";
+  "Yes, I ate your homework—you said it was important, and my stomach is the only place the vacuum can't reach. Bring a bag on our walk.";
 
 mkdirSync(dirname(ENTRY_PATH), { recursive: true });
 writeFileSync(ENTRY_PATH, EXCUSE, "utf8");
